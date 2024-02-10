@@ -1,0 +1,16 @@
+#ulTasks li.done {
+    color: #6c757d;
+    text-decoration: line-through;
+  }
+
+  #inpNewTask{
+    border: none;
+    outline: none;
+    border-bottom:2px solid rgba(0, 0, 0, 0.445) ;
+    transition: 1s all ease;
+  }
+
+  #inpNewTask:focus{
+    outline: none;
+    border: none;
+  }
